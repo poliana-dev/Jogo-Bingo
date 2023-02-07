@@ -1,0 +1,18 @@
+.h1,.h2{
+    text-align: center;
+    padding-top: 2em;
+    font-family: 'Trebuchet MS';  
+}
+.conteudoRegra{
+    text-align: justify;
+    padding-top: 1em;
+    padding-left: 6em;
+    padding-right: 3em;
+}
+.conteudoHistoria{
+    text-align: justify;
+    padding-top: 1em;
+    padding-right: 6em;
+    padding-left: 3em;
+
+}
