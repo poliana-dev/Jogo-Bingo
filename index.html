@@ -7,13 +7,15 @@
     <title>Jogo</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estiloJogo.css">
+
+    <script src="js/animacao.js"></script>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
             <header>
                 <h1 class="h1">BINGO</h1>
-            </header>
+            </header> 
         </div>
         <!-- área dvidida -->
         <section class="row">
@@ -33,10 +35,19 @@
 
         <!-- segunda parte com o jogo -->
         <section class="row">
+            <article class="col-md-4">
+                <input type="button" value="Clique Para Sortear" id="botaoSorte" class="btn-danger" onclick="sorteioNumero()">
+            </article>
+            <article class="col-md-4">
+                <h3 class="h3" id="resultado">
+                    
+                </h3>
+
+            </article>
             
         </section>
     </div>
-
+    <script src="js/animacao.js"></script>
     
 </body>
 </html>
