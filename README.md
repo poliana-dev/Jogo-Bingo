@@ -1,2 +1,2 @@
 # Jogo-Bingo
- Criar um sorteador e uma possivel cartela
+ Criar um sorteador 
